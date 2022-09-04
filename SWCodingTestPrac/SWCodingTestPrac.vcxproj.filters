@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="FindMissingNum.c">
+    <ClCompile Include="TwoInt.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
