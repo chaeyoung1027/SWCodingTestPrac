@@ -1,10 +1,25 @@
 #include<stdio.h>
-#include <string>
 
 int main(void) {
-	int answernum[] = { 1, 1, 2, 2, 2, 8 };;
+	int answer[] = { 1, 1, 2, 2, 2, 8 };
+	int inanswer[6];
+
+	printf("찾은 피스의 개수를 입력해주세요\n");
+	printf("\t킹\t퀸\t룩\t비숍\t나이트\t폰\n");
 	
-	printf("찾은 피스의 개수를 입력해주세요 : ");
+	//찾은 피스의 개수를 입력받는 for문
+	printf("입력\t");
+	for (int i = 0; i < sizeof(answer) / sizeof(int); i++) {
+		scanf_s("%d\t", &inanswer[i]);
+	}
+	//있어야하는 피스의 개수와 비교하는 for문
+	for (int i = 0; i < sizeof(answer) / sizeof(int); i++) {
+		answer[i] = answer[i] - inanswer[i];
+	}
+	//출력 for문
+	for (int i = 0; i < sizeof(answer) / sizeof(int); i++) {
+		printf("%d", answer[i]);
+	}
 }
 
 /*
