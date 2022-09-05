@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="TwoInt.c">
+    <ClCompile Include="Chess.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
