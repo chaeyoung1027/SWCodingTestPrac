@@ -9,16 +9,18 @@ int main(void) {
 	
 	//찾은 피스의 개수를 입력받는 for문
 	printf("입력\t");
-	for (int i = 0; i < sizeof(answer) / sizeof(int); i++) {
-		scanf_s("%d\t", &inanswer[i]);
+	for (int i = 0; i < sizeof(answer) / sizeof(int) ; i++) {
+		scanf_s(" %d", &inanswer[i]);
 	}
+	
 	//있어야하는 피스의 개수와 비교하는 for문
 	for (int i = 0; i < sizeof(answer) / sizeof(int); i++) {
 		answer[i] = answer[i] - inanswer[i];
 	}
 	//출력 for문
+	printf("\t");
 	for (int i = 0; i < sizeof(answer) / sizeof(int); i++) {
-		printf("%d", answer[i]);
+		printf("%d\t", answer[i]);
 	}
 }
 
