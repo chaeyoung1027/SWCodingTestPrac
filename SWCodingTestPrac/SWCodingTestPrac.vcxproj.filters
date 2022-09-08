@@ -15,7 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Chess.c">
+    <ClCompile Include="marathon.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="FibonacciSequence.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
