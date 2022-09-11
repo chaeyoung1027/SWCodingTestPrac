@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="FibonacciSequence.c" />
+    <ClCompile Include="DecNum.c" />
     <ClCompile Include="marathon.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

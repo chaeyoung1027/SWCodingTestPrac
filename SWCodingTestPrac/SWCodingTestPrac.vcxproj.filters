@@ -18,7 +18,7 @@
     <ClCompile Include="marathon.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="FibonacciSequence.c">
+    <ClCompile Include="DecNum.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
