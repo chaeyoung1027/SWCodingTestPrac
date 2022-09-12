@@ -21,6 +21,7 @@
   <ItemGroup>
     <ClCompile Include="DecNum.c" />
     <ClCompile Include="marathon.c" />
+    <ClCompile Include="MinimumCommonMultiple.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
